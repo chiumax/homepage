@@ -67,7 +67,8 @@
         function search(e) {
             if (e.keyCode == 13) {
                 var val = document.getElementById("search-field").value;
-                window.open("https://google.com/search?q=" + val);
+                //window.open("https://google.com/search?q=" + val);
+                window.location.href = "https://google.com/search?q="+val;
             }
         }
         // Get current time and format
